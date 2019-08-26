@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Azure Cards 101 - Interactives</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <!-- custom resources -->
+    <script type="text/javascript" src="js/knockstrap.js"></script>
+    <script type="text/javascript" src="js/azurecards101.js" defer="defer"></script>
+    <link rel="stylesheet" type="text/css" href="css/azurecards101.css">
+</head>
+
+<body>
+
+    <h1>Azure Cards</h1>
+    <!-- ko foreach: categories -->
+    <div class="category">
+        <h3 data-bind="text: name"></h3>
+        <div data-bind="foreach: {data:cards, as: 'card'}" class="row">
+            <div class="card text-center" style="width: 8rem; " data-bind="style: { backgroundColor: $parent.color }">
+                <!-- ko if: card.tag -->
+                <img data-bind="attr:{ src: 'img/' + card.tag +'.png'}" class="card-img-top">
+                <!-- /ko -->
+                <!-- ko ifnot: card.tag -->
+                <img src="img/azure-default.png" class="card-img-top">
+                <!-- /ko -->
+                <div class="card-body">
+                    <button data-bind="popover: { options: { trigger: 'focus', placement: 'bottom' , html: true}, template: popoverTemplate, data: card}">
+                        <h6 class="card-title" data-bind="text: name"></h6>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <script id="popover_content_wrapper" type="text/html">
+        <ul>
+            <!-- ko foreach: card.actions -->
+            <li><a data-bind="attr: { href: url }" target="_blank"><span data-bind="text: name"></span></a></li>
+            <!-- /ko -->
+        </ul>
+    </script>
+</body>
+<footer>
+    <span>Created by @lgmorand, based on the original idea of @RicardoNiepel.</span>
+</footer>
+
+</html>

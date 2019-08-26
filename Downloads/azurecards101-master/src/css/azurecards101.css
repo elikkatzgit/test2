@@ -1,0 +1,39 @@
+body {
+    background-color: #24262d;
+    padding: 30px;
+    color: white;
+}
+
+.category,
+footer {
+    margin-top: 30px;
+}
+
+.card {
+    color: black;
+    margin: 5px;
+}
+
+.card-img-top {
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    background-color: white;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    padding: 0.75rem !important;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:focus {
+    outline-color: transparent;
+}

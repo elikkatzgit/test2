@@ -1,0 +1,2768 @@
+[{
+        "name": "Compute",
+        "color": "#25864c",
+        "cards": [{
+                "name": "Virtual Machines",
+                "description": "Provision Windows and Linux virtual machines in seconds",
+                "tag": "virtual-machine",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=virtual-machines"
+                    }
+                ]
+            },
+            {
+                "name": "App Service",
+                "description": "Quickly create powerful cloud apps for web and mobile",
+                "tag": "app-service",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=app-service"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/"
+                    }
+                ]
+            },
+            {
+                "name": "Functions",
+                "description": "Process events with serverless code",
+                "tag": "functions",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/functions/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-functions/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=functions"
+                    }
+                ]
+            },
+            {
+                "name": "Batch",
+                "description": "Cloud - scale job scheduling and compute management",
+                "tag": "batch",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/batch/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/batch/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=batch"
+                    }
+                ]
+            },
+            {
+                "name": "Container Instances",
+                "description": "Easily run containers with a single command",
+                "tag": "container-instance",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/container-instances/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/container-instances/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=container-instances"
+                    }
+                ]
+            },
+            {
+                "name": "Service Fabric",
+                "description": "Develop microservices and orchestrate containers on Windows or Linux",
+                "tag": "service-fabric",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/service-fabric/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=service-fabric"
+                    }
+                ]
+            },
+            {
+                "name": "Virtual Machine Scale Sets",
+                "description": "Manage and scale up to thousands of Linux and Windows virtual machines",
+                "tag": "virtual-machine-scaleset",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machine-scale-sets/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=virtual-machine-scale-sets"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Container Service (AKS)",
+                "description": "Simplify the deployment, management, and operations of Kubernetes",
+                "tag": "aks",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/kubernetes-service"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/container-service"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=kubernetes-service"
+                    }
+                ]
+            },
+            {
+                "name": "Cloud Services",
+                "description": "Create highly - available, infinitely - scalable cloud applications and APIs",
+                "tag": "cloud-service",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cloud-services/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cloud-services/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=cloud-services"
+                    }
+                ]
+            },
+            {
+                "name": "Linux Virtual Machines",
+                "description": "Provision virtual machines for Ubuntu,Red Hat, and more",
+                "tag": "linux-vm",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/linux"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/"
+                    }
+                ]
+            },
+            {
+                "name": "SQL Server on Virtual Machines",
+                "description": "Host enterprise SQL Server apps in the cloud",
+                "tag": "sql",
+                "actions": [{
+                    "name": "Overview",
+                    "url": "https://azure.microsoft.com/en-us/services/virtual-machines/sql-server"
+                }]
+            },
+            {
+                "name": "SAP HANA on Azure Large Instances",
+                "description": "Run the largest SAP HANA workloads of any hyperscale cloud provider",
+                "tag": "sap",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/solutions/sap/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Networking",
+        "color": "#593a7c",
+        "cards": [{
+                "name": "Content Delivery Network",
+                "description": "Ensure secure, reliable content delivery with broad global reach",
+                "tag": "cdn",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cdn/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cdn/cdn-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cdn/"
+                    }
+                ]
+            },
+            {
+                "name": "ExpressRoute",
+                "description": "Dedicated private network fiber connections to Azure",
+                "tag": "express-route",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/expressroute/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/expressroute/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure DNS",
+                "description": "Host your DNS domain in Azure",
+                "tag": "dns",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/dns/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/dns/dns-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/dns/"
+                    }
+                ]
+            },
+            {
+                "name": "Virtual Network",
+                "description": "Provision private networks, optionally connect to on - premises datacenters",
+                "tag": "virtual-network",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-network/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-network/"
+                    }
+                ]
+            },
+            {
+                "name": "Traffic Manager",
+                "description": "Route incoming traffic for high performance and availability ",
+                "tag": "traffic-manager",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/traffic-manager/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/traffic-manager/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=traffic-manager"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/traffic-manager/"
+                    }
+                ]
+            },
+            {
+                "name": "Load Balancer",
+                "description": "Deliver high availability and network performance to your applications",
+                "tag": "load-balancer",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/load-balancer/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/load-balancer/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/load-balancer/"
+                    }
+                ]
+            },
+            {
+                "name": "VPN Gateway",
+                "description": "Establish secure, cross - premises connectivity",
+                "tag": "vpn-gateway",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/vpn-gateway/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/vpn-gateway//"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=vpn-gateway"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/vpn-gateway/"
+                    }
+                ]
+            },
+            {
+                "name": "Application Gateway",
+                "description": "Build secure, scalable, and highly available web front ends in Azure",
+                "tag": "application-gateway",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/application-gateway/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/application-gateway/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=application-gateway"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/application-gateway/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure DDoS Protection",
+                "description": "Protect your applications from Distributed Denial of Service(DDoS) attacks",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/ddos-protection/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/ddos-protection/"
+                    }
+                ]
+            },
+            {
+                "name": "Network Watcher",
+                "description": "Network performance monitoring and diagnostics solution",
+                "tag": "network-watcher",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/network-watcher/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=network-watcher"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/network-watcher/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Storage",
+        "color": "#4fa0d2",
+        "cards": [{
+                "name": "App Service",
+                "description": "Quickly create powerful cloud apps for web and mobile",
+                "tag": "app-service",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=app-service"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/"
+                    }
+                ]
+            },
+            {
+                "name": "API Management",
+                "description": "Publish APIs to developers, partners, and employees securely and at scale",
+                "tag": "api",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/api-management/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/api-management/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/api-management/"
+                    }
+                ]
+            },
+            {
+                "name": "Content Delivery Network",
+                "description": "Ensure secure, reliable content delivery with broad global reach",
+                "tag": "cdn",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cdn/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cdn/cdn-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cdn/"
+                    }
+                ]
+            },
+            {
+                "name": "Media Services",
+                "description": "Encode, store, and stream video and audio at scale",
+                "tag": "media-service",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/media-services/"
+                    },
+                    {
+                        "name": "Pricing ",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/media-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Notification Hubs",
+                "description": "Send push notifications to any platform from any back end",
+                "tag": "notification-hub",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/notification-hubs/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/notification-hubs/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/notification-hubs/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Search",
+                "description": "Fully - managed search - as - a - service",
+                "tag": "azure-search",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/search/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/search/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=search"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/search/"
+                    }
+                ]
+            },
+            {
+                "name": "Logic Apps",
+                "description": "Automate the access and use of data across clouds without writing code",
+                "tag": "logic-apps",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/logic-apps/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/logic-apps/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=logic-apps"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/logic-apps/"
+                    }
+                ]
+            },
+            {
+                "name": "Encoding",
+                "description": "Studio Grade encoding at cloud scale",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/encoding/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/media-services/latest/encoding-concept"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/media-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Live and On - Demand Streaming",
+                "description": "Deliver content to virtually all devices with scale to meet business needs",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/live-on-demand/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/media-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Media Player",
+                "description": "A single layer for all your playback needs",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/media-player/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/media-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Content Protection",
+                "description": "Securely deliver content using AES, PlayReady, Widevine, and Fairplay",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/content-protection/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-content-protection-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/media-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Media Indexer",
+                "description": "Make your multimedia more discoverable and accessible",
+                "actions": [{
+                    "name": "Documentation",
+                    "url": "https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-index-content"
+                }]
+            },
+            {
+                "name": "Web Apps",
+                "description": "Quickly create and deploy mission critical Web apps at scale",
+                "tag": "web-app",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/web/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/"
+                    }
+                ]
+            },
+            {
+                "name": "Mobile Apps",
+                "description": "Build and host the backend for any mobile app",
+                "tag": "mobile-app",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/mobile/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service-mobile/"
+                    }
+                ]
+            },
+            {
+                "name": "API Apps",
+                "description": "Easily build and consume Cloud APIs",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service/"
+                    }
+                ]
+            },
+            {
+                "name": "Media Analytics",
+                "description": "Uncover insights from video files with speech and vision services",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/media-analytics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-analytics-overview"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Storage",
+        "color": "#2f4892",
+        "cards": [{
+                "name": "Storage",
+                "description": "Durable, highly available, and massively scalable cloud storage",
+                "tag": "storage",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/"
+                    }
+                ]
+            },
+            {
+                "name": "Backup",
+                "description": "Simple and reliable server backup to the cloud",
+                "tag": "backup",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/backup/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/backup/"
+                    }
+                ]
+            },
+            {
+                "name": "StorSimple",
+                "description": "Lower costs with an enterprise hybrid cloud storage solution",
+                "tag": "storsimple",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storsimple/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storsimple/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storsimple/"
+                    }
+                ]
+            },
+            {
+                "name": "Site Recovery",
+                "description": "Orchestrate protection and recovery of private clouds",
+                "tag": "site-recovery",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/site-recovery/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/site-recovery/"
+                    },
+                    {
+                        "name": "¨Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/site-recovery/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Lake Store",
+                "description": "Hyperscale repository for big data analytics workloads",
+                "tag": "datalake-store",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/data-lake-storage/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/data-lake/"
+                    }
+                ]
+            },
+            {
+                "name": "Blob Storage",
+                "description": "REST - based object storage for unstructured data",
+                "tag": "blob",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/blobs/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/"
+                    }
+                ]
+            },
+            {
+                "name": "Disk Storage",
+                "description": "Persistent, secured disk options supporting virtual machines",
+                "tag": "disk",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/disks/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/"
+                    }
+                ]
+            },
+            {
+                "name": "Managed Disks",
+                "description": "Persistent, secured disk storage for Azure virtual machines",
+                "tag": "disk",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/disks/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/"
+                    }
+                ]
+            },
+            {
+                "name": "Queue Storage",
+                "description": "Effectively scale apps according to traffic",
+                "tag": "queue",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/queues/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/queues/storage-dotnet-how-to-use-queues"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/queues/"
+                    }
+                ]
+            },
+            {
+                "name": "File Storage",
+                "description": "File shares that use the standard SMB 3.0 protocol Web + Mobile",
+                "tag": "files",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/files/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/files/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Containers",
+        "color": "#f39544",
+        "cards": [{
+                "name": "App Service",
+                "description": "Quickly create powerful cloud apps for web and mobile ",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/app-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/app-service/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=app-service"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/app-service/windows/"
+                    }
+                ]
+            },
+            {
+                "name": "Batch",
+                "description": "Cloud - scale job scheduling and compute management",
+                "tag": "batch",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/batch/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/batch/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=batch"
+                    }
+                ]
+            },
+            {
+                "name": "Container Registry",
+                "description": "Store and manage container images across all types of Azure deployments",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/container-registry/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/container-registry/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/container-registry/"
+                    }
+                ]
+            },
+            {
+                "name": "Container Instances",
+                "description": "Easily run containers with a single command",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/container-instances/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/container-instances/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/container-instances/"
+                    }
+                ]
+            },
+            {
+                "name": "Service Fabric",
+                "description": "Develop microservices and orchestrate containers on Windows or Linux",
+                "tag": "service-fabric",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/service-fabric/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/service-fabric/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/service-fabric/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Container Service (AKS)",
+                "description": "Simplify the deployment, management, and operations of Kubernetes",
+                "tag": "aks",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/kubernetes-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/container-service/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/kubernetes-service/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Databases",
+        "color": "#632463",
+        "cards": [{
+                "name": "Azure SQL Database",
+                "description": "Managed relational SQL Database as a service",
+                "tag": "sql-database",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/sql-database/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/sql-database/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/sql-database/managed/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Cosmos DB",
+                "description": "Globally distributed, multi - model database for any scale",
+                "tag": "cosmos",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cosmos-db/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cosmos-db/"
+                    }
+                ]
+            },
+            {
+                "name": "SQL Data Warehouse",
+                "description": "Elastic data warehouse as a service with enterprise - class features",
+                "tag": "sql-datawarehouse",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/sql-data-warehouse/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/sql-data-warehouse/gen2/"
+                    }
+                ]
+            },
+            {
+                "name": "Redis Cache",
+                "description": "Power applications with high - throughput, low - latency data access",
+                "tag": "redis",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cache/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cache/"
+                    }
+                ]
+            },
+            {
+                "name": "SQL Server Stretch Database",
+                "description": "Dynamically stretch on - premises SQL Server databases to Azure",
+                "tag": "stretch-database",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=virtual-machines"
+                    }
+                ]
+            },
+            {
+                "name": "Table Storage",
+                "description": "NoSQL key - value store using semi - structured datasets",
+                "tag": "table",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/tables/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-overview"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Database for PostgreSQL",
+                "description": "Managed PostgreSQL database service for app developers",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/postgresql/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/postgresql/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/postgresql/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Database for MySQL",
+                "description": "Managed MySQL database service for app developers",
+                "tag": "mysql",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/mysql/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/mysql/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/mysql/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Database Migration Service",
+                "description": "Simplify on - premises database migration to the cloud",
+                "tag": "data-migration",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/database-migration/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/dms/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/database-migration/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Analytics",
+        "color": "#c1d756",
+        "cards": [{
+                "name": "HDInsight",
+                "description": "Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters",
+                "tag": "hdinsights",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/hdinsight/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/hdinsight/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/hdinsight/"
+                    }
+                ]
+            },
+            {
+                "name": "Apache Spark for Azure HDInsight",
+                "description": "Apache Spark in the cloud for mission critical deployments",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/hdinsight/apache-spark/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview"
+                    }
+                ]
+            },
+            {
+                "name": "Apache Storm for HDInsight",
+                "description": "Real - time stream processing made easy for big data",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=virtual-machines"
+                    }
+                ]
+            },
+            {
+                "name": "R Server for HDInsight",
+                "description": "Predictive analytics, machine learning, and statistical modeling for big data",
+                "actions": [{
+                    "name": "Overview",
+                    "url": "https://azure.microsoft.com/en-us/services/hdinsight/r-server/"
+                }]
+            },
+            {
+                "name": "SQL Data Warehouse",
+                "description": "Elastic data warehouse as a service with enterprise - class features",
+                "tag": "sql-datawarehouse",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/sql-data-warehouse/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/sql-data-warehouse/gen2/"
+                    }
+                ]
+            },
+            {
+                "name": "Stream Analytics",
+                "description": "Real - time data stream processing from millions of IoT devices",
+                "tag": "stream-analytics",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/stream-analytics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/stream-analytics/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/stream-analytics/"
+                    }
+                ]
+            },
+            {
+                "name": "Event Hubs",
+                "description": "Receive telemetry from millions of devices",
+                "tag": "event-hub",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/event-hubs/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/event-hubs/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/event-hubs/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Factory",
+                "description": "Hybrid data integration at enterprise scale, made easy",
+                "tag": "data-factory",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/data-factory/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/data-factory/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/data-factory/"
+                    }
+                ]
+            },
+            {
+                "name": "Log Analytics",
+                "description": "Collect, search, and visualize machine data from on - premises and cloud",
+                "tag": "log-analytics",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/monitor/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-query-overview"
+                    }
+                ]
+            },
+            {
+                "name": "Data Catalog",
+                "description": "Get more value from your enterprise data assets",
+                "tag": "data-catalog",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/data-catalog/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/data-catalog/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/data-catalog/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Lake Store",
+                "description": "Hyperscale repository for big data analytics workloads",
+                "tag": "datalake-store",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storage/data-lake-storage/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storage/data-lake/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Lake Analytics",
+                "description": "Distributed analytics service that makes big data easy",
+                "tag": "datalake-analytics",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/data-lake-analytics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/data-lake-analytics/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/data-lake-analytics/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Analysis Services",
+                "description": "Enterprise grade analytics engine as a service",
+                "tag": "analysis-service",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/analysis-services/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/analysis-services/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/analysis-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Databricks",
+                "description": "Fast, easy, and collaborative Apache Spark - based analytics platform",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/databricks/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-databricks/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/databricks/"
+                    }
+                ]
+            },
+            {
+                "name": "Power BI Embedded",
+                "description": "Embed fully interactive, stunning data visualizations in your applications",
+                "tag": "powerbi",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/power-bi-embedded/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/power-bi-embedded/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/power-bi-embedded/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AI + Machine Learning",
+        "color": "#e52d3e",
+        "cards": [{
+                "name": "Machine Learning Studio",
+                "description": "Easily build, deploy, and manage predictive analytics solutions",
+                "tag": "machine-learning",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/machine-learning-studio/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/machine-learning/studio/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/machine-learning-studio/"
+                    }
+                ]
+            },
+            {
+                "name": "Cognitive Services",
+                "description": "Add smart API capabilities to enable contextual interactions",
+                "tag": "cognitive-services",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Bot Service",
+                "description": "Intelligent, serverless bot service that scales on demand",
+                "tag": "bot",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/bot-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/bot-service/"
+                    }
+                ]
+            },
+            {
+                "name": "Text Analytics API",
+                "description": "Easily evaluate sentiment and topics to understand what users want",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/"
+                    }
+                ]
+            },
+            {
+                "name": "Project Academic Knowledge",
+                "description": "Tap into the wealth of academic content in the Microsoft Academic Graph",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://labs.cognitive.microsoft.com/en-us/project-academic-knowledge"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/academic-knowledge/home"
+                    }
+                ]
+            },
+            {
+                "name": "Computer Vision API",
+                "description": "Distill actionable information from images",
+                "tag": "computer-vision",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/"
+                    }
+                ]
+            },
+            {
+                "name": "Content Moderator",
+                "description": "Automated image, text, and video moderation",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/content-moderator/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/content-moderator/"
+                    }
+                ]
+            },
+            {
+                "name": "Emotion API",
+                "description": "Personalize user experiences with emotion recognition",
+                "tag": "emotion",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/emotion/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/emotion/home"
+                    }
+                ]
+            },
+            {
+                "name": "Face API",
+                "description": "Detect, identify, analyze, organize, and tag faces in photos",
+                "tag": "face",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/face/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/face-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Language Understanding (LUIS)",
+                "description": "Teach your apps to understand commands from your users",
+                "tag": "luis",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/language-understanding-intelligent-services/"
+                    }
+                ]
+            },
+            {
+                "name": "Speaker Recognition API",
+                "description": "Use speech to identify and authenticate individual speakers",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/speaker-recognition/home"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speaker-recognition/"
+                    }
+                ]
+            },
+            {
+                "name": "Custom Speech Service",
+                "description": "Overcome speech recognition barriers like speaking style, background noise, and vocabulary",
+                "tag": "speech",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/custom-speech-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/custom-speech-service/cognitive-services-custom-speech-home"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/custom-speech-service/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Autosuggest API",
+                "description": "Give your app intelligent autosuggest options for searches",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/autosuggest/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/Bing-Autosuggest/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/autosuggest-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Spell Check API",
+                "description": "Detect and correct spelling mistakes in your app",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/spellcheck-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Translator Speech API",
+                "description": "Easily conduct real - time speech translation with a simple REST API call",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/translator-speech-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator-speech/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator-speech-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Translator Text API",
+                "description": "Easily conduct machine translation with a simple REST API call",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-info-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator-text-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Custom Search API",
+                "description": "An easy - to - use, ad - free, commercial - grade search tool that lets you deliver the results you want",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-custom-search/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-custom-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/bing-custom-search/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Entity Search API",
+                "description": "Enrich your experiences by identifying and augmenting entity information from the web",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-entity-search-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-entities-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/bing-entity-search-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Web Search API",
+                "description": "Get enhanced search details from billions of web documents",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/search-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Video Search API",
+                "description": "Search for videos andget comprehensive results",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-video-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/search-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing Image Search API",
+                "description": "Search for images andget comprehensive results",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/search-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Bing News Search API",
+                "description": "Search for news andget comprehensive results",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/bing-news-search-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/search-api/"
+                    }
+                ]
+            },
+            {
+                "name": "Custom Decision Service",
+                "description": " A cloud - based, contextual decision - making API that sharpens with experience",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://labs.cognitive.microsoft.com/en-us/project-custom-decision"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview"
+                    }
+                ]
+            },
+            {
+                "name": "QnA Maker API",
+                "description": "Distill information into conversational, easy - to - navigate answers",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/index"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/"
+                    }
+                ]
+            },
+            {
+                "name": "Project Knowledge Exploration",
+                "description": "Enable interactive search experiences over structured data via natural language inputs",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://labs.cognitive.microsoft.com/en-us/project-knowledge-exploration"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/kes/overview"
+                    }
+                ]
+            },
+            {
+                "name": "Project Entity Linking",
+                "description": "Power your app 's data links with named entity recognition and disambiguation",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://labs.cognitive.microsoft.com/en-us/project-entity-linking"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/entitylinking/home"
+                    }
+                ]
+            },
+            {
+                "name": "Linguistic Analysis API",
+                "description": "Simplify complex language concepts and parse text with the Linguistic Analysis API",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/linguistic-analysis-api/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/linguisticanalysisapi/home"
+                    }
+                ]
+            },
+            {
+                "name": "Video Indexer",
+                "description": "Unlock video insights",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/media-services/video-indexer/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/video-indexer/"
+                    }
+                ]
+            },
+            {
+                "name": "Custom Vision Service",
+                "description": "Easily customize your own state - of - the - art computer vision models for your unique use case",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/home"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/custom-vision-service/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Batch AI",
+                "description": "Easily experiment and train your deep learning and AI models in parallel at scale",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/batch-ai/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/batch-ai/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/batch-ai/"
+                    }
+                ]
+            },
+            {
+                "name": "Microsoft Genomics",
+                "description": "Power genome sequencing & research insights",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/genomics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/genomics/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/genomics/"
+                    }
+                ]
+            },
+            {
+                "name": "Machine Learning Services",
+                "description": "Bring AI to everyone with an end - to - end, scalable, trusted platform with experimentation and model management",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/machine-learning-service/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/machine-learning/service/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/machine-learning-service/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Internet of Things",
+        "color": "#ee7340",
+        "cards": [{
+                "name": "IoT Hub",
+                "description": "Connect, monitor, and control billions of IoT assets",
+                "tag": "iot-hub",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/iot-hub/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/iot-hub/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/iot-hub/"
+                    }
+                ]
+            },
+            {
+                "name": "Machine Learning Studio",
+                "description": "Easily build, deploy, and manage predictive analytics solutions",
+                "tag": "machine-learning",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/machine-learning-studio/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/machine-learning/studio/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/machine-learning-studio/"
+                    }
+                ]
+            },
+            {
+                "name": "Stream Analytics",
+                "description": "Real - time data stream processing from millions of IoT devices",
+                "tag": "stream-analytics",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/stream-analytics/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/stream-analytics/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/stream-analytics/"
+                    }
+                ]
+            },
+            {
+                "name": "Event Hubs",
+                "description": "Receive telemetry from millions of devices",
+                "tag": "event-hub",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/event-hubs/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/event-hubs/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/event-hubs/"
+                    }
+                ]
+            },
+            {
+                "name": "Notification Hubs",
+                "description": "Send push notifications to any platform from any back end",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/notification-hubs/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/notification-hubs/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/notification-hubs/"
+                    }
+                ]
+            },
+            {
+                "name": "Logic Apps",
+                "description": "Automate the access and use of data across clouds without writing code",
+                "tag": "logic-apps",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/logic-apps/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/logic-apps/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/logic-apps/"
+                    }
+                ]
+            },
+            {
+                "name": "IoT Suite",
+                "description": "Capture and analyze untapped data to improve business results",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/features/iot-accelerators/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/iot-accelerators/"
+                    }
+                ]
+            },
+            {
+                "name": "Time Series Insights",
+                "description": "Instantly explore and analyze time - series data",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/time-series-insights/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/time-series-insights/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/time-series-insights/"
+                    }
+                ]
+            },
+            {
+                "name": "Event Grid",
+                "description": "Get reliable event delivery at massive scale",
+                "tag": "event-grid",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/event-grid/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/event-grid/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/event-grid/"
+                    }
+                ]
+            },
+            {
+                "name": "IoT Edge",
+                "description": "Extend intelligence from the cloud to edge devices",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/iot-edge/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/iot-edge/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/iot-edge/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Location Based Services",
+                "description": "Simple and secure location APIs provide geospatial context to data",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/azure-maps/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-maps/index"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/azure-maps/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Integration",
+        "color": "#b6abd1",
+        "cards": [{
+                "name": "StorSimple",
+                "description": "Lower costs with an enterprise hybrid cloud storage solution",
+                "tag": "storsimple",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/storsimple/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/storsimple/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/storsimple/"
+                    }
+                ]
+            },
+            {
+                "name": "API Management",
+                "description": "Publish APIs to developers, partners, and employees securely and at scale",
+                "tag": "api",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/api-management/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/api-management/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/api-management/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Factory",
+                "description": "Hybrid data integration at enterprise scale, made easy",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/data-factory/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/data-factory/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/data-factory/"
+                    }
+                ]
+            },
+            {
+                "name": "Service Bus",
+                "description": "Connect across private and public cloud environments",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/service-bus/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/service-bus/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/service-bus/"
+                    }
+                ]
+            },
+            {
+                "name": "Data Catalog",
+                "description": "Get more value from your enterprise data assets",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/data-catalog/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/data-catalog/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/data-catalog/"
+                    }
+                ]
+            },
+            {
+                "name": "SQL Server Stretch Database",
+                "description": "Dynamically stretch on - premises SQL Server databases to Azure",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/sql-server-stretch-database/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/sql-server-stretch-database/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/sql-server-stretch-database/"
+                    }
+                ]
+            },
+            {
+                "name": "Logic Apps",
+                "description": "Automate the access and use of data across clouds without writing code",
+                "tag": "logic-apps",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/logic-apps/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/logic-apps/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/logic-apps/"
+                    }
+                ]
+            },
+            {
+                "name": "Event Grid",
+                "description": "Get reliable event delivery at massive scale",
+                "tag": "event-grid",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/event-grid/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/event-grid/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/event-grid/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Security + Identity",
+        "color": "#3885c0",
+        "cards": [{
+                "name": "Azure Active Directory",
+                "description": "Synchronize on - premises directories and enable single sign - on",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/active-directory/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/active-directory/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=active-directory"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/active-directory/"
+                    }
+                ]
+            },
+            {
+                "name": "Multi-Factor Authentication",
+                "description": "Add security for your data and apps without adding hassles for users",
+                "actions": [{
+                    "name": "Documentation",
+                    "url": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks"
+                }]
+            },
+            {
+                "name": "Azure Information Protection",
+                "description": "Better protect your sensitive information— anytime, anywhere",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/information-protection/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/information-protection/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/information-protection/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Active Directory Domain Services",
+                "description": "Join Azure virtual machines to a domain without domain controllers",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/active-directory-ds/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/active-directory-domain-services/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/active-directory-ds/"
+                    }
+                ]
+            },
+            {
+                "name": "Key Vault",
+                "description": "Safeguard and maintain control of keys and other secrets",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/key-vault/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/key-vault/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/key-vault/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Active Directory B2C",
+                "description": "Consumer identity and access management in the cloud",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/active-directory-b2c/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/active-directory-b2c/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=active-directory-b2c"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/active-directory-b2c/"
+                    }
+                ]
+            },
+            {
+                "name": "Security Center",
+                "description": "Unify security management and enable advanced threat protection across hybrid cloud workloads",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/security-center/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/security-center/security-center-intro"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=security-center"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/security-center/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Developer Tools",
+        "color": "#7a6dae",
+        "cards": [{
+                "name": "Azure DevOps",
+                "description": "Services for teams to share code, track work, and ship software",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/devops/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/devops/index?view=vsts"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://blogs.msdn.microsoft.com/devops/"
+                    }
+                ]
+            },
+            {
+                "name": "API Management",
+                "description": "Publish APIs to developers, partners, and employees securely and at scale",
+                "tag": "api",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/api-management/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/api-management/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/api-management/"
+                    }
+                ]
+            },
+            {
+                "name": "Application Insights",
+                "description": "Detect, triage, and diagnose issues in your web apps and services",
+                "tag": "app-insights",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/monitor/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/monitor/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=monitor"
+                    }
+                ]
+            },
+            {
+                "name": "Azure DevTest Labs",
+                "description": "Quickly create environments using reusable templates and artifacts",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/devtest-lab/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/lab-services/devtest-lab-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?query=devtest+labs"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/devtest-lab/"
+                    }
+                ]
+            },
+            {
+                "name": "Visual Studio App Center",
+                "description": "Ship apps faster by automating application lifecycles",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://visualstudio.microsoft.com/fr/app-center/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://visualstudio.microsoft.com/fr/app-center/pricing/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Management Tools",
+        "color": "#f9bd46",
+        "cards": [{
+                "name": "Backup",
+                "description": "Simple and reliable server backup to the cloud",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/backup/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=backup"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/backup/"
+                    }
+                ]
+            },
+            {
+                "name": "Site Recovery",
+                "description": "Orchestrate protection and recovery of private clouds",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/virtual-machines/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=virtual-machines"
+                    }
+                ]
+            },
+            {
+                "name": "Application Insights",
+                "description": "Detect, triage, and diagnose issues in your web apps and services",
+                "tag": "app-insights",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/monitor/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/monitor/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=monitor"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Advisor",
+                "description": "Your personalized Azure best practices recommendation engine",
+                "tag": "advisor",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/advisor/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/advisor/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/advisor/"
+                    }
+                ]
+            },
+            {
+                "name": "Scheduler",
+                "description": "Run your jobs on simple or complex recurring schedules",
+                "tag": "scheduler",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/scheduler/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/scheduler/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/scheduler/"
+                    }
+                ]
+            },
+            {
+                "name": "Automation",
+                "description": "Simplify cloud management with process automation",
+                "tag": "automation",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/automation/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/automation/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/automation/"
+                    }
+                ]
+            },
+            {
+                "name": "Traffic Manager",
+                "description": "Route incoming traffic for high performance and availability",
+                "tag": "traffic-manager",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/traffic-manager/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/traffic-manager/"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=traffic-manager"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/traffic-manager/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Monitor",
+                "description": "Highly granular and real - time monitoring data for any Azure resource",
+                "tag": "monitor",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/monitor/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/azure-monitor/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/monitor/"
+                    }
+                ]
+            },
+            {
+                "name": "Network Watcher",
+                "description": "Network performance monitoring and diagnostics solution",
+                "tag": "network-watcher",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/network-watcher/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+                    },
+                    {
+                        "name": "Updates",
+                        "url": "https://azure.microsoft.com/en-us/updates/?product=network-watcher"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/network-watcher/"
+                    }
+                ]
+            },
+            {
+                "name": "Cloud Shell",
+                "description": "Streamline Azure administration with a browser - based shell",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/features/cloud-shell/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cloud-shell/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cloud-shell/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure mobile app",
+                "description": "Stay connected to your Azure resources— anytime, anywhere",
+                "tag": "mobile-app",
+                "actions": [{
+                    "name": "Overview",
+                    "url": "https://azure.microsoft.com/en-us/features/azure-portal/mobile-app/"
+                }]
+            },
+            {
+                "name": "Azure Policy",
+                "description": "Implement corporate governance and standards at scale for Azure resources",
+                "tag": "policy",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/azure-policy/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/governance/policy/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/azure-policy/"
+                    }
+                ]
+            },
+            {
+                "name": "Cost Management",
+                "description": "Optimize what you spend on the cloud, while maximizing cloud potential",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/cost-management/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/cost-management/"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/cost-management/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Managed Applications",
+                "description": "Simplify management of cloud offerings",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/managed-applications/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/managed-applications/overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/managed-applications/"
+                    }
+                ]
+            },
+            {
+                "name": "Azure Migrate",
+                "description": "Easily discover, assess, right - size, and migrate your on - premises VMs to Azure",
+                "actions": [{
+                        "name": "Overview",
+                        "url": "https://azure.microsoft.com/en-us/services/azure-migrate/"
+                    },
+                    {
+                        "name": "Documentation",
+                        "url": "https://docs.microsoft.com/en-us/azure/migrate/migrate-overview"
+                    },
+                    {
+                        "name": "Pricing",
+                        "url": "https://azure.microsoft.com/en-us/pricing/details/azure-migrate/"
+                    }
+                ]
+            }
+        ]
+    }
+]
