@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>xbean</artifactId>
+    <groupId>org.apache.xbean</groupId>
+    <version>3.7</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>xbean-asm-shaded</artifactId>
+  <packaging>bundle</packaging>
+  <name>Apache XBean :: ASM shaded (repackaged)</name>
+  <description>Repackaged and shaded asm jars</description>
+  <licenses>
+    <license>
+      <url>http://asm.ow2.org/license.html</url>
+    </license>
+    <license>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <relocations>
+                <relocation>
+                  <pattern>org.objectweb.asm</pattern>
+                  <shadedPattern>org.apache.xbean.asm</shadedPattern>
+                </relocation>
+              </relocations>
+              <transformers>
+                <transformer>
+                  <manifestEntries>
+                    <Bundle-License>http://asm.ow2.org/license.html</Bundle-License>
+                    <Bundle-SymbolicName>org.apache.xbean.asm-shaded</Bundle-SymbolicName>
+                    <Export-Package>${xbean.osgi.export}</Export-Package>
+                    <Import-Package>${xbean.osgi.export}</Import-Package>
+                  </manifestEntries>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <unzip />
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <xbean.osgi.export>org.apache.xbean.asm;version=3.1,org.apache.xbean.asm.signature;version=3.1,org.apache.xbean.asm.commons;version=3.1,org.apache.xbean.asm.tree;version=3.1</xbean.osgi.export>
+  </properties>
+</project>
+

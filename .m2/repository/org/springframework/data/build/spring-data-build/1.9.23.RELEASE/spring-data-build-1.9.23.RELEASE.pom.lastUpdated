@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 04 21:34:45 IST 2019
+https\://nexus.onap.org/content/repositories/releases/.lastUpdated=1575488084264
+https\://mvnrepository.com/artifact/com.att.ajsc/.error=
+https\://maven.restlet.com/.lastUpdated=1575488083240
+https\://maven.restlet.com/.error=
+https\://mvnrepository.com/artifact/com.att.ajsc/.lastUpdated=1575488082009
+https\://nexus.onap.org/content/repositories/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1575488085612
+https\://nexus.onap.org/content/repositories/snapshots/.lastUpdated=1575488085181
+https\://nexus.onap.org/content/repositories/snapshots/.error=

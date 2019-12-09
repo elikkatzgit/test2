@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 03 18:29:31 IST 2019
+junit-4.13-20191201.101017-199.jar>sonatype-nexus-snapshots=
+junit-4.13-20191201.101017-199.pom>sonatype-nexus-snapshots=

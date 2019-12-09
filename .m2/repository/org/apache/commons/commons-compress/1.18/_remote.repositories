@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 03 18:35:29 IST 2019
+commons-compress-1.18.jar>central=
+commons-compress-1.18.jar>geomajas=
+commons-compress-1.18.pom>central=
+commons-compress-1.18.pom>geomajas=

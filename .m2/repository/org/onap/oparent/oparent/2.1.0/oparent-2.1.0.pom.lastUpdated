@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 04 21:24:15 IST 2019
+http\://repo2.maven.org/maven2/.error=
+@default-ecomp-releases-${onap.nexus.url}/content/repositories/releases/.lastUpdated=1575487455852
+${onap.nexus.url}/content/repositories/releases/.error=Could not transfer artifact org.onap.oparent\:oparent\:pom\:2.1.0 from/to ecomp-releases (${onap.nexus.url}/content/repositories/releases/)\: Cannot access ${onap.nexus.url}/content/repositories/releases/ with type default using the available connector factories\: BasicRepositoryConnectorFactory
+https\://mvnrepository.com/artifact/com.att.ajsc/.error=
+https\://maven.restlet.com/.lastUpdated=1575487430311
+@default-ecomp-snapshots-${onap.nexus.url}/content/repositories/snapshots/.lastUpdated=1575487455860
+https\://maven.restlet.com/.error=
+https\://mvnrepository.com/artifact/com.att.ajsc/.lastUpdated=1575487428838
+http\://repo2.maven.org/maven2/.lastUpdated=1575487430764
+${onap.nexus.url}/content/repositories/snapshots/.error=Could not transfer artifact org.onap.oparent\:oparent\:pom\:2.1.0 from/to ecomp-snapshots (${onap.nexus.url}/content/repositories/snapshots/)\: Cannot access ${onap.nexus.url}/content/repositories/snapshots/ with type default using the available connector factories\: BasicRepositoryConnectorFactory

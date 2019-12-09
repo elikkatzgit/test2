@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.diffplug.spotless</groupId>
+  <artifactId>spotless-maven-plugin</artifactId>
+  <version>1.25.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.diffplug.spotless</groupId>
+      <artifactId>spotless-lib</artifactId>
+      <version>1.25.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.diffplug.spotless</groupId>
+      <artifactId>spotless-lib-extra</artifactId>
+      <version>1.25.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-resources</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.diffplug.durian</groupId>
+      <artifactId>durian-core</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.diffplug.durian</groupId>
+      <artifactId>durian-collect</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>spotless-maven-plugin</name>
+  <description>Spotless - keep your code spotless with Gradle</description>
+  <url>https://github.com/diffplug/plugin-maven</url>
+  <scm>
+    <url>https://github.com/diffplug/plugin-maven</url>
+    <connection>scm:git:git://github.com/diffplug/plugin-maven</connection>
+    <developerConnection>scm:git:ssh:git@github.com/diffplug/plugin-maven</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <prerequisites>
+    <maven>3.1.0</maven>
+  </prerequisites>
+  <developers>
+    <developer>
+      <id>lutovich</id>
+      <name>Konstantin Lutovich</name>
+      <email>konstantin.lutovich@neotechnology.com</email>
+    </developer>
+    <developer>
+      <id>nedtwigg</id>
+      <name>Ned Twigg</name>
+      <email>ned.twigg@diffplug.com</email>
+    </developer>
+  </developers>
+</project>

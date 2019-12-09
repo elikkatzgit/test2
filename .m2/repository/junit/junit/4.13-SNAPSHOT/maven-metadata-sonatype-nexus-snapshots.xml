@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.13-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20191201.101017</timestamp>
+      <buildNumber>199</buildNumber>
+    </snapshot>
+    <lastUpdated>20191201101017</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>4.13-20191201.101017-199</value>
+        <updated>20191201101017</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.13-20191201.101017-199</value>
+        <updated>20191201101017</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>4.13-20191201.101017-199</value>
+        <updated>20191201101017</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>4.13-20191201.101017-199</value>
+        <updated>20191201101017</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
